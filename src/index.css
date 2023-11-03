@@ -13,6 +13,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  cursor: pointer;
+}
+
 .container {
   display: flex;
 }
@@ -24,13 +29,25 @@ code {
   margin: 10px;
 }
 
+li {
+  list-style-type: none;
+}
+
+.page-item {
+  padding: 10px;
+}
+
 .pej-btn-cls {
+  display: block;
   border: 1px solid green;
   border-radius: 50px;
   padding: 20px;
   margin: 5px;
   height: 10px;
-  line-height: 20px;
-  justify-content: center;
-  gap: 0.9em;
+  line-height: 10px;
+}
+
+.active {
+  background-color: green;
+  color: white;
 }
